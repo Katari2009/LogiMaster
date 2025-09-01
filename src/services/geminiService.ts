@@ -2,8 +2,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { PracticeProblem } from '../types';
 
-// Fix: Per coding guidelines, the API key must be obtained from process.env.API_KEY.
-// This resolves the TypeScript error with `import.meta.env` and aligns with requirements.
+// FIX: The API key must be read from `process.env.API_KEY` as per the coding guidelines.
+// The previous implementation used `import.meta.env.VITE_API_KEY` which is incorrect.
 if (!process.env.API_KEY) {
     console.warn("API_KEY environment variable not set. Gemini API calls will fail.");
 }
@@ -11,7 +11,6 @@ if (!process.env.API_KEY) {
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
 
 export const generateExplanation = async (topic: string, currentExplanation: string): Promise<string> => {
-    // Fix: Removed local API key check, as guidelines state to assume it's pre-configured.
     try {
         const prompt = `Eres un profesor de matemáticas experto y amigable. Explica el concepto de "${topic}" para un estudiante de secundaria en Chile. Usa un enfoque diferente al siguiente para no repetirte: "${currentExplanation}". Sé claro, conciso y utiliza una analogía o ejemplo práctico.`;
         const response = await ai.models.generateContent({
@@ -26,7 +25,6 @@ export const generateExplanation = async (topic: string, currentExplanation: str
 };
 
 export const generatePracticeProblem = async (topic: string): Promise<PracticeProblem | string> => {
-    // Fix: Removed local API key check, as guidelines state to assume it's pre-configured.
     try {
         const prompt = `Genera un problema práctico de opción múltiple sobre "${topic}" para un estudiante de secundaria. Proporciona el problema, cuatro opciones (una correcta) y una explicación detallada de la solución. Asegúrate de que las opciones sean plausibles.`;
 
