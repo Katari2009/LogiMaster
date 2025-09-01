@@ -1,0 +1,5 @@
+{
+  "name": "LogiMaster: Desafío Logarítmico",
+  "description": "An interactive PWA to master logarithmic functions, designed for Chilean high school students. Features AI-powered explanations and practice problems to develop critical thinking.",
+  "requestFramePermissions": []
+}
