@@ -28,7 +28,7 @@ Los logaritmos son increíblemente útiles para manejar números muy grandes o m
         questions: [
           {
             id: 'q-01',
-            question: '¿Cuál es la forma exponencial equivalente a log₃(9) = 2?',
+            question: '1. ¿Cuál es la forma exponencial equivalente a log₃(9) = 2?',
             options: [
               { text: '2³ = 9', isCorrect: false },
               { text: '9³ = 2', isCorrect: false },
@@ -66,7 +66,7 @@ Estas reglas son fundamentales para resolver ecuaciones logarítmicas complejas.
         questions: [
           {
             id: 'q-02',
-            question: 'Usando las propiedades, ¿a qué es igual log(5) + log(2)?',
+            question: '1. Usando las propiedades, ¿a qué es igual log(5) + log(2)?',
             options: [
               { text: 'log(7)', isCorrect: false },
               { text: 'log(10)', isCorrect: true },
@@ -77,7 +77,7 @@ Estas reglas son fundamentales para resolver ecuaciones logarítmicas complejas.
           },
           {
             id: 'q-03',
-            question: 'Expresa 2 * log(x) como un único logaritmo.',
+            question: '2. Expresa 2 * log(x) como un único logaritmo.',
             options: [
               { text: 'log(2x)', isCorrect: false },
               { text: 'log(x+2)', isCorrect: false },
@@ -110,7 +110,7 @@ Estas reglas son fundamentales para resolver ecuaciones logarítmicas complejas.
         questions: [
           {
             id: 'q-04',
-            question: '¿Cuál es el valor de log(1000)?',
+            question: '1. ¿Cuál es el valor de log(1000)?',
             options: [
               { text: '100', isCorrect: false },
               { text: '3', isCorrect: true },
@@ -121,7 +121,7 @@ Estas reglas son fundamentales para resolver ecuaciones logarítmicas complejas.
           },
           {
             id: 'q-05',
-            question: '¿A qué es igual ln(1)?',
+            question: '2. ¿A qué es igual ln(1)?',
             options: [
               { text: 'e', isCorrect: false },
               { text: '1', isCorrect: false },
@@ -132,7 +132,7 @@ Estas reglas son fundamentales para resolver ecuaciones logarítmicas complejas.
           },
           {
             id: 'q-06',
-            question: '¿A qué es igual log(0.01)?',
+            question: '3. ¿A qué es igual log(0.01)?',
             options: [
               { text: '2', isCorrect: false },
               { text: '-2', isCorrect: true },
@@ -168,7 +168,7 @@ Esta fórmula es una herramienta poderosa para evaluar cualquier logaritmo.`
         questions: [
           {
             id: 'q-07',
-            question: '¿Cómo se expresaría log₅(15) usando logaritmos naturales (ln)?',
+            question: '1. ¿Cómo se expresaría log₅(15) usando logaritmos naturales (ln)?',
             options: [
               { text: 'ln(5) / ln(15)', isCorrect: false },
               { text: 'ln(15) / ln(5)', isCorrect: true },
@@ -179,7 +179,7 @@ Esta fórmula es una herramienta poderosa para evaluar cualquier logaritmo.`
           },
           {
             id: 'q-08',
-            question: 'Calcula el valor de log₂(16) usando el cambio de base a base 10.',
+            question: '2. Calcula el valor de log₂(16) usando el cambio de base a base 10.',
             options: [
               { text: '2', isCorrect: false },
               { text: '8', isCorrect: false },
@@ -216,7 +216,7 @@ Estrategias comunes:
         questions: [
           {
             id: 'q-09',
-            question: 'Resuelve para x: log₄(x) = 3',
+            question: '1. Resuelve para x: log₄(x) = 3',
             options: [
               { text: 'x = 12', isCorrect: false },
               { text: 'x = 81', isCorrect: false },
@@ -227,7 +227,7 @@ Estrategias comunes:
           },
           {
             id: 'q-10',
-            question: 'Encuentra el valor de x en: log(2x) - log(5) = log(4)',
+            question: '2. Encuentra el valor de x en: log(2x) - log(5) = log(4)',
             options: [
               { text: 'x = 10', isCorrect: true },
               { text: 'x = 20', isCorrect: false },
@@ -238,7 +238,7 @@ Estrategias comunes:
           },
           {
             id: 'q-11',
-            question: 'Resuelve para x: ln(x + 1) = 0',
+            question: '3. Resuelve para x: ln(x + 1) = 0',
             options: [
               { text: 'x = 1', isCorrect: false },
               { text: 'x = -1', isCorrect: false },
@@ -249,7 +249,7 @@ Estrategias comunes:
           },
           {
             id: 'q-12',
-            question: '¿Cuál es la solución de 3 * log₂(x) = 6?',
+            question: '4. ¿Cuál es la solución de 3 * log₂(x) = 6?',
             options: [
               { text: 'x = 2', isCorrect: false },
               { text: 'x = 4', isCorrect: true },
@@ -260,7 +260,7 @@ Estrategias comunes:
           },
           {
             id: 'q-13',
-            question: 'Resuelve la ecuación log₃(2x - 1) = 2.',
+            question: '5. Resuelve la ecuación log₃(2x - 1) = 2.',
             options: [
               { text: 'x = 9', isCorrect: false },
               { text: 'x = 3.5', isCorrect: false },
@@ -271,7 +271,7 @@ Estrategias comunes:
           },
           {
               id: 'q-14',
-              question: 'Usando propiedades, simplifica: log₂(40) - log₂(5)',
+              question: '6. Usando propiedades, simplifica: log₂(40) - log₂(5)',
               options: [
                 { text: 'log₂(35)', isCorrect: false },
                 { text: '3', isCorrect: true },
@@ -282,7 +282,7 @@ Estrategias comunes:
           },
           {
               id: 'q-15',
-              question: 'Si log(a) = 2 y log(b) = 3, ¿cuál es el valor de log(a*b)?',
+              question: '7. Si log(a) = 2 y log(b) = 3, ¿cuál es el valor de log(a*b)?',
               options: [
                   { text: '6', isCorrect: false },
                   { text: '5', isCorrect: true },
@@ -310,7 +310,7 @@ Estrategias comunes:
           // 20 questions will be added here
           {
             id: 'paes-q01',
-            question: 'El valor de la expresión log₂(32) + log₃(81) - log₅(25) es:',
+            question: '1. El valor de la expresión log₂(32) + log₃(81) - log₅(25) es:',
             options: [
                 { text: '5', isCorrect: false },
                 { text: '6', isCorrect: false },
@@ -322,7 +322,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q02',
-            question: 'Si log(x) = 2, ¿cuál es el valor de log(100x)?',
+            question: '2. Si log(x) = 2, ¿cuál es el valor de log(100x)?',
             options: [
                 { text: '200', isCorrect: false },
                 { text: '102', isCorrect: false },
@@ -334,7 +334,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q03',
-            question: 'La expresión 3log(a) - 2log(b) es equivalente a:',
+            question: '3. La expresión 3log(a) - 2log(b) es equivalente a:',
             options: [
                 { text: 'log(3a - 2b)', isCorrect: false },
                 { text: 'log(a³ / b²)', isCorrect: true },
@@ -346,7 +346,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q04',
-            question: '¿Cuál es la solución de la ecuación log₃(x + 5) = 2?',
+            question: '4. ¿Cuál es la solución de la ecuación log₃(x + 5) = 2?',
             options: [
                 { text: 'x = 1', isCorrect: false },
                 { text: 'x = 3', isCorrect: false },
@@ -358,7 +358,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q05',
-            question: 'Si log_b(2) = 0.3 y log_b(3) = 0.4, ¿cuál es el valor de log_b(6)?',
+            question: '5. Si log_b(2) = 0.3 y log_b(3) = 0.4, ¿cuál es el valor de log_b(6)?',
             options: [
                 { text: '0.12', isCorrect: false },
                 { text: '1.2', isCorrect: false },
@@ -370,7 +370,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q06',
-            question: 'El valor de log_4(1/64) es:',
+            question: '6. El valor de log_4(1/64) es:',
             options: [
                 { text: '-3', isCorrect: true },
                 { text: '3', isCorrect: false },
@@ -382,7 +382,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q07',
-            question: '¿Cuál de las siguientes afirmaciones es FALSA?',
+            question: '7. ¿Cuál de las siguientes afirmaciones es FALSA?',
             options: [
                 { text: 'log₅(1) = 0', isCorrect: false },
                 { text: 'log(a) + log(b) = log(ab)', isCorrect: false },
@@ -394,7 +394,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q08',
-            question: 'La solución de la ecuación ln(x) = 3 es:',
+            question: '8. La solución de la ecuación ln(x) = 3 es:',
             options: [
                 { text: 'x = 3e', isCorrect: false },
                 { text: 'x = e/3', isCorrect: false },
@@ -406,7 +406,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q09',
-            question: '¿Cuál es el valor de x en la ecuación log(x) + log(5) = 2?',
+            question: '9. ¿Cuál es el valor de x en la ecuación log(x) + log(5) = 2?',
             options: [
                 { text: '10', isCorrect: false },
                 { text: '15', isCorrect: false },
@@ -418,7 +418,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q10',
-            question: 'La expresión log₄(9) se puede escribir usando el cambio de base a base 10 como:',
+            question: '10. La expresión log₄(9) se puede escribir usando el cambio de base a base 10 como:',
             options: [
                 { text: 'log(4) / log(9)', isCorrect: false },
                 { text: 'log(9) / log(4)', isCorrect: true },
@@ -430,7 +430,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q11',
-            question: 'Si f(x) = log₂(x), ¿cuál es el valor de f(16) - f(4)?',
+            question: '11. Si f(x) = log₂(x), ¿cuál es el valor de f(16) - f(4)?',
             options: [
                 { text: '1', isCorrect: false },
                 { text: '2', isCorrect: true },
@@ -442,7 +442,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q12',
-            question: '¿Para qué valor de x se cumple que log_x(49) = 2?',
+            question: '12. ¿Para qué valor de x se cumple que log_x(49) = 2?',
             options: [
                 { text: '2', isCorrect: false },
                 { text: '5', isCorrect: false },
@@ -454,7 +454,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q13',
-            question: 'Si log₃(m) = 2, entonces log₃(9m) es igual a:',
+            question: '13. Si log₃(m) = 2, entonces log₃(9m) es igual a:',
             options: [
                 { text: '2', isCorrect: false },
                 { text: '3', isCorrect: false },
@@ -466,7 +466,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q14',
-            question: 'El orden creciente de los números p = log₂(3), q = log₂(5), r = log₂(2) es:',
+            question: '14. El orden creciente de los números p = log₂(3), q = log₂(5), r = log₂(2) es:',
             options: [
                 { text: 'p, q, r', isCorrect: false },
                 { text: 'q, p, r', isCorrect: false },
@@ -478,7 +478,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q15',
-            question: '¿Cuál es el dominio de la función f(x) = log(x - 3)?',
+            question: '15. ¿Cuál es el dominio de la función f(x) = log(x - 3)?',
             options: [
                 { text: 'Todos los números reales', isCorrect: false },
                 { text: 'x > 0', isCorrect: false },
@@ -490,7 +490,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q16',
-            question: 'El valor de la expresión log₅(√5) es:',
+            question: '16. El valor de la expresión log₅(√5) es:',
             options: [
                 { text: '1/2', isCorrect: true },
                 { text: '2', isCorrect: false },
@@ -502,7 +502,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q17',
-            question: 'Si log₂(x² - 3) = log₂(x - 1), entonces el valor de x es:',
+            question: '17. Si log₂(x² - 3) = log₂(x - 1), entonces el valor de x es:',
             options: [
                 { text: '2', isCorrect: false },
                 { text: '-1', isCorrect: false },
@@ -514,7 +514,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q18',
-            question: 'La escala de Richter mide la magnitud M de un sismo con la fórmula M = log(A/A₀), donde A es la amplitud registrada. Un sismo de magnitud 7 es ¿cuántas veces más intenso (en amplitud) que uno de magnitud 5?',
+            question: '18. La escala de Richter mide la magnitud M de un sismo con la fórmula M = log(A/A₀), donde A es la amplitud registrada. Un sismo de magnitud 7 es ¿cuántas veces más intenso (en amplitud) que uno de magnitud 5?',
             options: [
                 { text: '2 veces', isCorrect: false },
                 { text: '1.4 veces', isCorrect: false },
@@ -526,7 +526,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q19',
-            question: 'Si log_b(5) = a, entonces log_b(125) es:',
+            question: '19. Si log_b(5) = a, entonces log_b(125) es:',
             options: [
                 { text: 'a³', isCorrect: false },
                 { text: 'a + 3', isCorrect: false },
@@ -538,7 +538,7 @@ Estrategias comunes:
           },
           {
             id: 'paes-q20',
-            question: '¿Qué valor resulta de la expresión (log₃(27) * log(100)) / (log₂(8))?',
+            question: '20. ¿Qué valor resulta de la expresión (log₃(27) * log(100)) / (log₂(8))?',
             options: [
                 { text: '1', isCorrect: false },
                 { text: '2', isCorrect: true },

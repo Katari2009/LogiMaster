@@ -59,6 +59,8 @@ const ModuleView: React.FC<ModuleViewProps> = ({ module, onBack }) => {
       setCurrentActivityIndex(currentActivityIndex - 1);
     }
   };
+  
+  const isPaesModule = module.id === 'paes-log-01';
 
   return (
     <div className="animate-fade-in">
@@ -111,11 +113,17 @@ const ModuleView: React.FC<ModuleViewProps> = ({ module, onBack }) => {
              </button>
           )}
 
-          {currentActivityIndex === module.activities.length - 1 && completedActivities.has(currentActivity.id) &&(
-              <div style={styles.completionMessage}>
-                <CheckCircleIcon style={{ height: '1.5rem', width: '1.5rem' }}/>
-                ¡Módulo completado!
-              </div>
+          {currentActivityIndex === module.activities.length - 1 && completedActivities.has(currentActivity.id) && (
+             isPaesModule ? (
+                <button onClick={onBack} style={{...styles.navButton, ...styles.nextButton}} className="button-pop">
+                  Finalizar y Volver al Dashboard
+                </button>
+              ) : (
+                <div style={styles.completionMessage}>
+                  <CheckCircleIcon style={{ height: '1.5rem', width: '1.5rem' }}/>
+                  ¡Módulo completado!
+                </div>
+              )
           )}
         </footer>
       </div>
